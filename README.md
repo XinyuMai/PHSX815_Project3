@@ -12,8 +12,8 @@ Note: alpha and beta are two shape parameters of beta distribution.
 
 ## This repository contains several types of programs:
 * python/ `Random.py`, `OrbitSim.py` , `MinimizeSim.py`(will be implement soon), `MySort.py`, `SimAnalysis.py` (analysis program from project 2)
-* `data/` contains output data
-* `plots/` contains output plots
+* `demo-py/` contains programs from HW 8 and HW9
+
 
 ## Code Usage 
 
