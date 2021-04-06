@@ -27,7 +27,7 @@ Begin with `OrbitSim.py`, it will call from random class, samples from beta dist
 	*  -b beta value
 	*  -output [filename]  name of file for hypothesis
 
-![alt text](https://github.com/[XinyuMai]/[PHSX815_Project3]/blob/[main]/python/delta_cr_0.5_0.5.pdf)
+![plot](https://github.com/XinyuMai/PHSX815_Project3/blob/main/delta_cr_0.5_0.5.pdf?raw=True)
 
 Next step, we will use the text file data (fixed), analyze the simulated data to find the value of \\alpha and \\beta that maximizes L(alpha, beta|X) (the data is ”fixed” in an experiment).
 
