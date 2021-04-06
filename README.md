@@ -33,6 +33,7 @@ It will also generate a distribution of Delta_{cr} samples from Beta distributio
 
 Next step, we will use the text file data (fixed), analyze the simulated data to find the value of \\alpha and \\beta that maximizes L(alpha, beta|X) (the data is ”fixed” in an experiment), I am also planning to run the Neyman construction to compare the true value of alpha and beta with calculated value. 
 
-* `python3.8 python/SimAnalysis.py -a0 0.5 -b0 0.5 -a1 3.0 -b1 3.0 -input0 H0.txt -input1 H1.txt`
+* project 2 `SimAnalysis.py` usage: `python3.8 python/SimAnalysis.py -a0 0.5 -b0 0.5 -a1 3.0 -b1 3.0 -input0 H0.txt -input1 H1.txt`
+* A background paper extracted from paper 2 is provided for reviewer to know this simulation details.
 
 
