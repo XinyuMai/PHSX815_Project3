@@ -11,7 +11,7 @@ In the last project, We closely examime two hypotheses:
 Note: alpha and beta are two shape parameters of beta distribution.
 
 ## This repository contains several types of programs:
-* python/ `Random.py`, `OrbitSim.py`, `MinimizeSim.py`, `MySort.py`
+* python/ `Random.py`, `OrbitSim.py` , `MinimizeSim.py`(will be implement soon), `MySort.py`, `SimAnalysis.py` (analysis program from project 2)
 * `data/` contains output data
 * `plots/` contains output plots
 
@@ -31,7 +31,7 @@ It will also generate a distribution of Delta_{cr} samples from Beta distributio
 
 * ![plot](delta_cr_0.5_0.5.pdf)
 
-Next step, we will use the text file data (fixed), analyze the simulated data to find the value of \\alpha and \\beta that maximizes L(alpha, beta|X) (the data is ”fixed” in an experiment).
+Next step, we will use the text file data (fixed), analyze the simulated data to find the value of \\alpha and \\beta that maximizes L(alpha, beta|X) (the data is ”fixed” in an experiment), I am also planning to run the Neyman construction to compare the true value of alpha and beta with calculated value. 
 
 * `python3.8 python/SimAnalysis.py -a0 0.5 -b0 0.5 -a1 3.0 -b1 3.0 -input0 H0.txt -input1 H1.txt`
 
