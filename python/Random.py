@@ -119,15 +119,16 @@ class RandomDist:
         
         
     # implement beta distribution
-    def Beta(self, a, b, n):
+    def Beta(self, a, b,n):
         import numpy as np
         import random
-        # two shape parameters namely 𝛼 and 𝛽 both >0
-        if a <= 0.:
-            a = 0.5
-            
-        if b <= 0.:
+        # two shape parameters namely 𝛼 and 𝛽 both >0, fixed 𝛽
+        if b <= 0.0:
             b = 0.5
+            
+        if a <= 0.0:
+            a = 0.5
+        
         
         X = np.random.beta(a, b, n)
         
